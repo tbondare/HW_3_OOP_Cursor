@@ -1,3 +1,9 @@
+package Figures2D;
+
+import AbstractClasses.Shape;
+import Interfaces.AreaMeasurable;
+import Interfaces.PerimeterMeasurable;
+
 public abstract class PlaneShape extends Shape implements PerimeterMeasurable, AreaMeasurable {
 
     protected double distanceBetweenTwo2DVertices(Vertex2D first, Vertex2D second) {

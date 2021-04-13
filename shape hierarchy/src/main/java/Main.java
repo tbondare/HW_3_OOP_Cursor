@@ -1,3 +1,12 @@
+import Figures2D.Circle;
+import Figures2D.Rectangle;
+import Figures2D.Triangle;
+import Figures2D.Vertex2D;
+import Figures3D.Cuboid;
+import Figures3D.Sphere;
+import Figures3D.SquarePyramid;
+import Figures3D.Vertex3D;
+
 public class Main {
     public static void main(String[] args) {
         Triangle triangle = new Triangle(new Vertex2D(2, 3), new Vertex2D(1, 2), new Vertex2D(3, 4));

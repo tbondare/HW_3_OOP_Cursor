@@ -1,3 +1,9 @@
+package Figures3D;
+
+import AbstractClasses.Shape;
+import Interfaces.AreaMeasurable;
+import Interfaces.VolumeMeasurable;
+
 public abstract class SpaceShape extends Shape implements AreaMeasurable, VolumeMeasurable {
     @Override
     protected String getParameters() {

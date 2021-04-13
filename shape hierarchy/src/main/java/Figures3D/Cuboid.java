@@ -1,3 +1,5 @@
+package Figures3D;
+
 import java.util.ArrayList;
 
 public class Cuboid extends SpaceShape {

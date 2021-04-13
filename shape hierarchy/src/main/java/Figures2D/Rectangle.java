@@ -1,3 +1,7 @@
+package Figures2D;
+
+import Figures2D.PlaneShape;
+
 import java.util.ArrayList;
 
 public class Rectangle extends PlaneShape {
