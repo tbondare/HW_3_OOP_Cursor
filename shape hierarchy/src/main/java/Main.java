@@ -1,11 +1,11 @@
 import Figures2D.Circle;
 import Figures2D.Rectangle;
 import Figures2D.Triangle;
-import Figures2D.Vertex2D;
 import Figures3D.Cuboid;
 import Figures3D.Sphere;
 import Figures3D.SquarePyramid;
-import Figures3D.Vertex3D;
+import Vertex.Vertex2D;
+import Vertex.Vertex3D;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +16,12 @@ public class Main {
         Cuboid cuboid = new Cuboid(new Vertex3D(4, 2, 5), 7, 7, 7);
         Sphere sphere = new Sphere(new Vertex3D(8, 5, 1), 5);
 
-        System.out.print(triangle.toString());
+        System.out.println(triangle);
+        System.out.println(rectangle);
+        System.out.println(circle);
+        System.out.println(squarePyramid);
+        System.out.println(cuboid);
+        System.out.println(sphere);
+
     }
 }

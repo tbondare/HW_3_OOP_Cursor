@@ -11,9 +11,6 @@ public abstract class SpaceShape extends Shape implements AreaMeasurable, Volume
     }
 
     @Override
-    protected abstract String getType();
-
-    @Override
     public abstract double getArea();
 
     @Override

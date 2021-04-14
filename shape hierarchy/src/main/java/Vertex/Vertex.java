@@ -1,4 +1,4 @@
-package AbstractClasses;
+package Vertex;
 
 public abstract class Vertex {
     @Override

@@ -1,5 +1,7 @@
 package Figures2D;
 
+import Vertex.Vertex2D;
+
 import java.util.ArrayList;
 
 public class Circle extends PlaneShape {
@@ -9,11 +11,6 @@ public class Circle extends PlaneShape {
         vertices = new ArrayList<>();
         vertices.add(a);
         this.radius = radius;
-    }
-
-    @Override
-    protected String getType() {
-        return "Circle";
     }
 
     @Override

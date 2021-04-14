@@ -1,5 +1,7 @@
 package Figures3D;
 
+import Vertex.Vertex3D;
+
 import java.util.ArrayList;
 
 public class Sphere extends SpaceShape {
@@ -12,17 +14,12 @@ public class Sphere extends SpaceShape {
     }
 
     @Override
-    protected String getType() {
-        return "Sphere";
-    }
-
-    @Override
     public double getArea() {
         return 4 * Math.PI * Math.pow(radius, 2);
     }
 
     @Override
     public double getVolume() {
-        return (double) 4/3 * Math.PI * Math.pow(radius, 3);
+        return (double) 4 / 3 * Math.PI * Math.pow(radius, 3);
     }
 }

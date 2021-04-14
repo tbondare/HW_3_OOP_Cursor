@@ -1,6 +1,6 @@
 package Figures2D;
 
-import Figures2D.PlaneShape;
+import Vertex.Vertex2D;
 
 import java.util.ArrayList;
 
@@ -16,11 +16,6 @@ public class Triangle extends PlaneShape {
     @Override
     protected double distanceBetweenTwo2DVertices(Vertex2D first, Vertex2D second) {
         return super.distanceBetweenTwo2DVertices(first, second);
-    }
-
-    @Override
-    public String getType() {
-        return "Triangle";
     }
 
     @Override

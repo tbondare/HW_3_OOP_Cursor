@@ -3,6 +3,7 @@ package Figures2D;
 import AbstractClasses.Shape;
 import Interfaces.AreaMeasurable;
 import Interfaces.PerimeterMeasurable;
+import Vertex.Vertex2D;
 
 public abstract class PlaneShape extends Shape implements PerimeterMeasurable, AreaMeasurable {
 
@@ -14,9 +15,6 @@ public abstract class PlaneShape extends Shape implements PerimeterMeasurable, A
     protected String getParameters() {
         return "Perimeter: " + getPerimeter() + " Area: " + getArea();
     }
-
-    @Override
-    protected abstract String getType();
 
     @Override
     public abstract double getPerimeter();

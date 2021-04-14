@@ -1,5 +1,7 @@
 package Figures3D;
 
+import Vertex.Vertex3D;
+
 import java.util.ArrayList;
 
 public class Cuboid extends SpaceShape {
@@ -13,11 +15,6 @@ public class Cuboid extends SpaceShape {
         this.width = width;
         this.height = height;
         this.depth = depth;
-    }
-
-    @Override
-    protected String getType() {
-        return "Cuboid";
     }
 
     @Override

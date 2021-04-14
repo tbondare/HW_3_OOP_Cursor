@@ -1,6 +1,6 @@
 package Figures2D;
 
-import Figures2D.PlaneShape;
+import Vertex.Vertex2D;
 
 import java.util.ArrayList;
 
@@ -25,8 +25,4 @@ public class Rectangle extends PlaneShape {
         return width * height;
     }
 
-    @Override
-    protected String getType() {
-        return "Rectangle";
-    }
 }
